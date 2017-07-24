@@ -32,7 +32,7 @@ namespace UploadPhoto.Controllers
         {
             if (IG.File.ContentLength > (2*1024*1024))
             {
-                ModelState.AddModelError("CustomError", "File size must be less than 2 Mb");
+                ModelState.AddModelError("CustomError", "File  size must be less than 2 Mb");
                 return View();
             }
 

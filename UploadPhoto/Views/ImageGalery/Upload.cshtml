@@ -6,7 +6,7 @@
 
 <h2>Upload</h2>
 
-@using (Html.BeginForm("Upload", " ImageGalery", FormMethod.Post, new { enctypy = "multipart/form-data" }))
+@using (Html.BeginForm("Upload", " ImageGalery", FormMethod.Post, new { enctypy = "multipart/form-data", FormMethod.Post }))
 {
     @Html.ValidationSummary(true)
     <table>
